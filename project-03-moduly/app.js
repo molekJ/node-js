@@ -1,7 +1,6 @@
-const notes = require("./notes");
-console.log("jestem \nw module app");
+const counter = require("./counter");
 
-// console.log(notes.txt);
-
-// const mod = require("module");
-// console.log(mod.wrapper);
+counter.add(2);
+counter.add(11);
+counter.add(22);
+counter.add(30);
